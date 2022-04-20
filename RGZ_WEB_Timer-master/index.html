@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Таймер на JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<input class= 'date' type='date' id = "date" placeholder="Введите дату">
+
+<button id="button" onclick="startTimer()">Запустить таймер</button>
+
+<div id="timer" class="timer">
+    <div class="timer__items">
+        <div class="timer__item timer__days">00</div>
+        <div class="timer__item timer__hours">00</div>
+        <div class="timer__item timer__minutes">00</div>
+        <div class="timer__item timer__seconds">00</div>
+    </div>
+</div>
+<div class="error" id="error" display>Ошибка, выберите корректную дату</div>
+<!--<div id="timer"></div>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="timer.js"></script>
+</body>
+</html>
